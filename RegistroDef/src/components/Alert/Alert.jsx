@@ -1,14 +1,9 @@
 import React from 'react';
 
-export const Alert = ({ errors }) => {
+export const Alert = ({ msj, color }) => {
   return (
-    <div>
-      {Object.values(errors).map((error, index) => {
-        if (error) {
-          return <div key={index}>{error}</div>;
-        }
-        return null;
-      })}
+    <div className={`alert alert-${color}`} role="alert">
+      {msj}
     </div>
   );
 };

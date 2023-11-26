@@ -8,9 +8,9 @@ export const SocialButton = () => {
     <Card>
       <Card.Body>
         <h4>Crea Una Cuenta</h4>
-        <CiFacebook size={40} style={{ marginRight: '10px' }} />
-        <FaGithub size={40} style={{ marginRight: '10px' }} />
-        <CiLinkedin size={40} />
+        <CiFacebook size={50} style={{ marginRight: '10px' }} />
+        <FaGithub size={50} style={{ marginRight: '10px' }} />
+        <CiLinkedin size={50} />
       </Card.Body>
     </Card>
   );
