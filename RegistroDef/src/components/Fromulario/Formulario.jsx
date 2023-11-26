@@ -5,11 +5,6 @@ import Card from 'react-bootstrap/Card';
 export const Formulario = ({ enviar, changeInput }) => {
   const submitForm = (e) => {
     e.preventDefault();
-
-    // Aquí puedes realizar la validación de campos antes de enviar el formulario
-    // Por ejemplo, verificar si los campos están completos y si el formato del email es válido
-
-    // Luego, llama a la función 'enviar' si los datos son válidos
     enviar(e);
   };
 
